@@ -123,7 +123,7 @@ Sales-Analysis-Dashboard/
 AI/ML Engineer & Data Analyst
 
 [![GitHub](https://img.shields.io/badge/GitHub-Yash--lab01-181717?style=flat&logo=github)](https://github.com/Yash-lab01)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Yash_Bhawar-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/yashbhawar)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Yash_Bhawar-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/yash-bhawar-77b5752b7/)
 
 ---
 
