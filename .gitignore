@@ -1,0 +1,13 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temp / backup files
+~$*
+*.tmp
+*.bak
+
+# Power BI temp files
+*.pbit
+*.pbix.tmp
