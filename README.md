@@ -1,53 +1,27 @@
 # 📊 Sales Analysis Dashboard — Power BI
 
-A multi-page **Power BI dashboard** analyzing global sales performance across **147 countries** using the *Global Superstore* dataset (~51K+ orders, 2011–2014). Features two interactive pages — a **Sales Overview** with geographic and segment breakdowns, and a **Monthly & Yearly Sales Analysis** with time-series trends, category treemaps, and return tracking.
+An end-to-end **Power BI dashboard** analyzing global sales performance using the *Global Superstore* dataset. The dashboard provides interactive, drill-down insights into regional revenue trends, product-level profitability, shipping efficiency, and key performance indicators (KPIs) to support data-driven business decisions.
 
 ---
 
 ## 🖥️ Dashboard Preview
 
-### Page 1 — Sales Overview
-![Sales Overview Dashboard](screenshots/sales_overview.png)
+| Overview | Monthly and Yearly Sales |
+|----------|------------|
+| ![Dashboard Overview](screenshots/sales_overview.png) | ![Monthly and Yearly Sales](screenshots/monthly_yearly_sales.png) |
 
-### Page 2 — Monthly & Yearly Sales Analysis
-![Monthly and Yearly Sales](screenshots/monthly_yearly_sales.png)
 
----
+## 🎯 Key Features
 
-## 🎯 Dashboard Pages & Features
-
-### Page 1 — Sales Overview
-| KPI | Value |
-|-----|-------|
-| Sum of Sales | **418.62K** |
-| Sum of Profit | **11.40K** |
-| Sum of Quantity | **7,652** |
-| Sum of Discount | **401.77** |
-| Sum of Shipping Cost | **44.54K** |
-
-- **Sales by City** — Donut chart showing revenue distribution across cities
-- **Sales by Category** — Bar chart comparing Furniture, Technology, and Office Supplies
-- **Sales by Segment** — Pie chart: Consumer (52.93%), Corporate (28.86%), Home Office (18.21%)
-- **Sales by Sub-Category** — Horizontal bar chart highlighting top products (Chairs, Copiers, Bookcases, Phones, Appliances)
-- **Geographic Map** — Interactive globe visualization with sales volume by region
-- **Sales by Market, Year & Quarter** — Stacked area chart showing quarterly trends across markets (2011–2014)
-- **Country Slicer** — Filter the entire page by country selection
-
-### Page 2 — Monthly & Yearly Sales Analysis
-| KPI | Value |
-|-----|-------|
-| Sum of Sales | **12.64M** |
-| Sum of Profit | **1.47M** |
-| Sum of Quantity | **178K** |
-| Sum of Discount | **7.33K** |
-| Count of Countries | **147** |
-| Count of Returned | **1,173** |
-
-- **Sales & Profit by Month** — Dual-axis bar & line chart comparing monthly sales vs. profit
-- **Sales by Category & Sub-Category** — Treemap visualization (Technology, Furniture, Office Supplies with sub-categories)
-- **Sales by Month** — Area chart with monthly sales trend line
-- **Year Slicer** — Filter by year (2011, 2012, 2013, 2014)
-- **Month Slicer** — Filter by individual month (January–December)
+- **Revenue KPIs** — Total Sales (12.64M), Total Profit (1.47M), Quantity (178K), Total Discount (7.33K), and Shipping Cost (1.35M) at a glance
+- **Geographic Analysis** — Interactive globe map showing sales distribution across countries worldwide
+- **City-Level Breakdown** — Donut chart highlighting sales contribution by top cities
+- **Product Performance** — Sales by Category (Technology, Furniture, Office Supplies) and top Sub-Categories (Phones, Copiers, Chairs, Bookcases, Storage)
+- **Market & Quarterly Trends** — Stacked area chart showing sales by Market (Africa, APAC, Canada, EMEA, EU, LATAM, US) across Years and Quarters
+- **Monthly & Yearly Analysis** — Dedicated page with month-over-month sales and profit trends, year/month slicers, and category treemap
+- **Customer Segments** — Revenue distribution across Consumer (51.48%), Corporate (30.25%), and Home Office (18.27%) segments
+- **Interactive Filtering** — Country slicer for dynamic filtering, plus Year and Month slicers on the detailed analysis page
+- **Multi-Page Dashboard** — Overview page for high-level insights and a detailed Monthly & Yearly Sales Analysis page
 
 ---
 
@@ -128,16 +102,18 @@ Sales-Analysis-Dashboard/
 
 ---
 
+---
+
 ## 📌 Key Insights
 
-- 📊 **Consumer segment dominates** — accounting for **52.93%** of total sales, followed by Corporate (28.86%) and Home Office (18.21%)
-- 🪑 **Chairs lead sub-category sales** at **66K**, closely followed by Copiers and Bookcases at 63K each
-- 📈 **Sales peak in November & December** — with **1.73M** and **1.75M** respectively, indicating strong seasonal/holiday demand
-- 📉 **February is the weakest month** — recording only **0.61M** in sales across all years
-- 🌎 **LATAM shows strong quarterly growth** — Q4 sales nearly doubled from 2011 to 2014
-- 🔄 **1,173 orders were returned** across 147 countries — a metric worth monitoring for operational improvements
-- 💰 **Profit margin is relatively thin** — total profit of **1.47M** on **12.64M** sales (~11.6%) suggests high discount impact (7.33K total discount)
-- 🏢 **Technology category leads revenue** — with Phones (1.71M) and Copiers (1.51M) as top technology sub-categories
+- 📈 **Technology** is the highest revenue-generating category at **4.7M**, followed by Furniture (4.1M) and Office Supplies (3.8M)
+- 📱 **Phones** lead sub-category sales at **1.7M**, followed by Copiers (1.5M) and Chairs (1.5M)
+- 👥 **Consumer** segment dominates with **51.48%** of total sales (6.51M), followed by Corporate (30.25%) and Home Office (18.27%)
+- 🌍 **APAC** is the top-performing market, with noticeable quarterly spikes in Q4
+- 📅 **November & December** consistently show the highest monthly sales (1.73M and 1.75M respectively)
+- 📊 Sales show a clear **upward trend** from 2011 to 2014 across all markets
+- 🔄 **1,173 returned orders** out of 178K total — a return rate worth monitoring
+- 🌐 Sales span across **147 countries**, with major concentration in US, APAC, and EU regions
 
 ---
 
